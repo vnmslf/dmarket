@@ -1,0 +1,1 @@
+<a href="mailto:info@delta-market.ru">info@delta-market.ru</a>

@@ -1,0 +1,33 @@
+/* colors*/
+$white: #fff;
+$blue: #2866af;
+$light_blue: #7cb8e7;
+$black: #2b2b2b;
+$gray: #5a5959;
+$yellow: #f2e904;
+$orange: #f67d13;
+
+/* breakpoints*/
+$breakpoints: (
+	smallest: 424px,
+	small: 480px,
+	medium: 768px,
+	xmedium: 992px,
+	large: 1024px,
+	xlarge: 1280px,
+	wide: 1920px,
+);
+/*
+	@include media-up(small) {
+	}
+	@include media-up(medium) {
+	}
+	@include media-up(xmedium) {
+	}
+	@include media-up(large) {
+	}
+	@include media-up(xlarge) {
+	}
+	@include media-up(wide) {
+	}
+*/

@@ -1,0 +1,15 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Title");
+?>Text here....<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+
+figure {
+display:flex;
+}
+
+figure img{
+width: 450px;
+height: 300px;
+background-position:center center;
+   background-size:cover;
+    };

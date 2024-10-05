@@ -1,0 +1,1 @@
+<img src="/upload/content/image/company/company-new.jpg">

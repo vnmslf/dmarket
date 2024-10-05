@@ -1,0 +1,25 @@
+@import "config/style";
+.catalog_detail {
+	@include media-up(xmedium) {
+		.img-block-ko {
+			color: $black;
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			figure {
+				display: flex;
+				flex-direction: row;
+				gap: 20px;
+
+				img {
+					max-width: 60%;
+				}
+
+				figcaption {
+					p {
+					}
+				}
+			}
+		}
+	}
+}

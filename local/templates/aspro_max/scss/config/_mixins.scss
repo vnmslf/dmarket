@@ -1,0 +1,39 @@
+@mixin default-transition($time) {
+	-webkit-transition: all $time linear;
+	transition: all $time linear;
+}
+@mixin default_btn($one, $two, $three, $four, $five) {
+	padding: 12px 16px;
+	border-radius: 100px;
+	background: $one;
+	color: $two;
+	border: 1px solid $two;
+	cursor: pointer;
+	text-align: center;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	@include default-transition(.2s);
+	&:hover {
+		color: $one;
+		background: $three;
+		border-color: $three;
+	}
+	&:focus {
+		background: $five;
+		color: $one;
+	}
+	&.disabled {
+		background: $four;
+		color: rgba($white, .5);
+	}
+	@include media-up(small) {
+	}
+	@include media-up(medium) {
+		padding: 16px 24px;
+	}
+	@include media-up(large) {
+		padding: 16px 32px;
+	}
+}

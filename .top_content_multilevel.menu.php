@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Каталог", 
+		SITE_DIR."/catalog/", 
+		Array(), 
+		Array("CLASS"=>"catalog wide_menu", "ICON"=>"icon_catalog"), 
+		"" 
+	),
+	Array(
+		"Акции", 
+		SITE_DIR."/sale/", 
+		Array(), 
+		Array("ICON"=>"icon_discount"), 
+		"" 
+	),
+	Array(
+		"Блог", 
+		SITE_DIR."/blog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Как купить", 
+		SITE_DIR."/help/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Компания", 
+		SITE_DIR."/company/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		SITE_DIR."/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
